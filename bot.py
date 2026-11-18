@@ -26,7 +26,7 @@ from telegram.ext import (Application, CallbackQueryHandler, CommandHandler,
                           ContextTypes, MessageHandler, filters)
 
 # ============================== CONFIG ==============================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8535271767:AAHyTZcIhaaff9B-Jt2aNt3aOzRROHi4Z3c")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8795909643:AAEKcmS9g5y6_PT9U3t4pCxdYH5I8bPP2j4")
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "1686274364").replace(" ", "1686274364").split(",") if x]
 DB_FILE = os.getenv("DB_FILE", "shop.db")
 TZ = ZoneInfo("Asia/Dhaka")
