@@ -40,7 +40,7 @@ from telegram.ext import (Application, CallbackQueryHandler, CommandHandler,
 # ----------------------------------------------------------------------------
 # CONFIG
 # ----------------------------------------------------------------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9290718275:AAETrFImykSK8sfF5CzTlKyKYEFqpoFD0Zk")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9105774355:AAEahlfEB_FUkn_Q9eGpmz4KXiZCqy-F4kk")
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "1686274364").replace(" ", "1686274364").split(",") if x.strip().lstrip("-").isdigit()]
 DB_FILE = os.getenv("DB_FILE", "shop.db")
 TZ = ZoneInfo("Asia/Dhaka")
